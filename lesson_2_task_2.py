@@ -1,8 +1,8 @@
 def is_year_leap(year):
     if year % 4==0:
-        print ("год ", year,": True")
+        print ("True")
     else:
-        print ("год ", year,": False")
+        print ("False")
 try:
     year = int(input("Введите целое число года: "))
     is_year_leap(year)
