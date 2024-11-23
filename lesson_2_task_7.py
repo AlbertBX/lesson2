@@ -1,3 +1,2 @@
-range(18,2,-4)
-for (i) in range (18, -2, -4):
-    print (i, end=' ')
+my_list=list(range (18,2,-4))
+print(my_list)
